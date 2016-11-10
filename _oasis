@@ -1,0 +1,20 @@
+OASISFormat: 0.4
+Name:        read-and-format-input
+Version:     1.0
+Synopsis:    Read and format input.
+Description: Read and format input.
+Authors:     Danny Willems <contact@danny-willems.be>
+Maintainers: Danny Willems <contact@danny-willems.be>
+Homepage:    https://github.com/dannywillems/ocaml-read-and-format-input
+License:     LGPL-3.0 with OCaml linking exception
+
+SourceRepository master
+  Type:     git
+  Location: https://github.com/dannywillems/ocaml-read-and-format-input.git
+  Branch:   master
+  Browser:  https://github.com/dannywillems/ocaml-read-and-format-input
+
+Library "ocaml-read-and-format-input"
+  Path:       src
+  BuildTools: ocamlbuild
+  Modules:    Read_and_format
